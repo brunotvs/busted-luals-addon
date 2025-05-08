@@ -1,8 +1,15 @@
 ---@meta
 
+---@type luassert
 assert = require("luassert")
+
+---@type luassert.spy
 spy = require("luassert.spy")
+
+---@type luassert.stub
 stub = require("luassert.stub")
+
+---@type luassert.mock
 mock = require("luassert.mock")
 
 ---Undocumented feature with unknown purpose.
