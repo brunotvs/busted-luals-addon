@@ -13,7 +13,7 @@ function file(filename) end
 ---
 ---This will not fail or pass, it will simply be marked as "pending".
 ---@param name string
----@param block fun()
+---@param block fun() | nil
 function pending(name, block) end
 
 ---Define the start of an asynchronous test.
